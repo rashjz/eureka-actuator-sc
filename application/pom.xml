@@ -9,7 +9,7 @@
     <version>0.0.1-SNAPSHOT</version>
 
     <parent>
-        <artifactId>demo</artifactId>
+        <artifactId>eureka-actuator-sc</artifactId>
         <groupId>com.example</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
