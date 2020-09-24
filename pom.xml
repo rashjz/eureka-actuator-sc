@@ -6,12 +6,13 @@
 	<modules>
 		<module>library</module>
 		<module>application</module>
+		<module>boot-admin</module>
 	</modules>
 
 	<groupId>com.example</groupId>
 	<artifactId>eureka-actuator-sc</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo</name>
+	<name>eureka-actuator-sc</name>
 	<packaging>pom</packaging>
 	<description>Spring Boot Eureka Actuator Spring Cloud Example </description>
 
