@@ -35,9 +35,14 @@ jobs:
         username: ${{ secrets.DOCKER_HUB_USERNAME }} 
         password:  ${{ secrets.DOCKER_HUB_PASSWORD }}
 
-    - name: Docker push
-      uses: docker/build-push-action@v2
-      with:
-        context: .
-        tags: rashjz/cloud-config:${{github.run_number}}
-        push: true
+    - name:  Maven Docker Build
+      run: mvn dockerfile:build
+      
+    - name:  Maven Docker Push
+      run: mvn dockerfile:push
+#     - name: Docker push
+#       uses: docker/build-push-action@v2
+#       with:
+#         context: .
+#         tags: rashjz/cloud-config:${{github.run_number}}
+#         push: true
