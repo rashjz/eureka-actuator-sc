@@ -10,7 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/config")
 public class CloudConfigController {
-    @Value("${message : Default message}")
+
+    @Value("${message: Default message}")
     private String message;
 
     @GetMapping(value = "/message")
