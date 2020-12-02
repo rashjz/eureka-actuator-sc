@@ -29,12 +29,15 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file pom.xml
       
-    - name: Publish to Docker Hub
-      uses: docker/build-push-action@v2 
+    - name: Docker Login
+      uses: docker/login-action@v1 
       with:       
         username: ${{ secrets.DOCKER_HUB_USERNAME }} 
         password:  ${{ secrets.DOCKER_HUB_PASSWORD }}
-        repository: rashjz/cloud-config       
-        file: Dockerfile
-        push: true
+
+    - name: Docker push
+      uses: docker/build-push-action@v2
+      with:
+        context: .
         tags: rashjz/cloud-config:${{github.run_number}}
+        push: true
