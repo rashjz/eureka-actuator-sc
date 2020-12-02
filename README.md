@@ -15,7 +15,7 @@ Eureka Service endpoint   : http://localhost:8761/
 Boot Admin Service Endpoint  : http://localhost:8080/  
 
 ![eureka_dashboard](https://github.com/rashjz/eureka-actuator-sc/blob/master/bin/Screenshot2.png?raw=true){:height="24px" width="48px"}
-
+<img src="https://github.com/rashjz/eureka-actuator-sc/blob/master/bin/Screenshot2.png?raw=true" width="48">
 
 
 
