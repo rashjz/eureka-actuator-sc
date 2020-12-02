@@ -11,7 +11,7 @@ on:
     
 defaults:
   run:
-    working-directory: ./cloud-config
+    working-directory: ./config-server
 
 jobs:
   build:
