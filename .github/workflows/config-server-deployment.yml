@@ -40,9 +40,4 @@ jobs:
       
     - name:  Maven Docker Push
       run: mvn dockerfile:push
-#     - name: Docker push
-#       uses: docker/build-push-action@v2
-#       with:
-#         context: .
-#         tags: rashjz/cloud-config:${{github.run_number}}
-#         push: true
+
