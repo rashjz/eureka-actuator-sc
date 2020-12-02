@@ -35,4 +35,6 @@ jobs:
         username: ${{ secrets.DOCKER_HUB_USERNAME }} 
         password:  ${{ secrets.DOCKER_HUB_PASSWORD }}
         repository: rashjz/cloud-config       
+        file: Dockerfile
+        push: true
         tags: ${{github.run_number}}
