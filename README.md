@@ -28,4 +28,5 @@ which should return you message : 'Hello from cloud config'
 #### To Push Docker Image to docker hub
 1. cd into service directory (cd config-server) 
 2. Make sure you have login docker 
-3. Run mvn dockerfile:push 
+3. Run mvn dockerfile:build
+4. Run mvn dockerfile:push 
