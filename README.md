@@ -7,14 +7,14 @@ curl GET http://localhost:9000/service-instances/a-bootiful-client
 #### Spring Eureka  
 Eureka Service endpoint   : http://localhost:8761/  
 
-<img src="https://github.com/rashjz/eureka-actuator-sc/blob/master/bin/Screenshot.png?raw=true" width="50%">
+<img src="https://github.com/rashjz/eureka-actuator-sc/blob/master/bin/Screenshot.png?raw=true" width="60%">
 
 
 #### Spring Boot Admin    
 
 Boot Admin Service Endpoint  : http://localhost:8080/  
 
-<img src="https://github.com/rashjz/eureka-actuator-sc/blob/master/bin/Screenshot2.png?raw=true" width="500">
+<img src="https://github.com/rashjz/eureka-actuator-sc/blob/master/bin/Screenshot2.png?raw=true" width="60%">
 
 
 
