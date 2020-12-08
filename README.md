@@ -30,3 +30,16 @@ which should return you message : 'Hello from cloud config'
 2. Make sure you have login docker 
 3. Run mvn dockerfile:build
 4. Run mvn dockerfile:push 
+
+#### To run kubernetes deployment locally
+Make sure you have setup kubectl, minikube, docker, virtual Box 
+on your machine after setting up environment : 
+ 
+1. cd deploy 
+2. kubectl apply -f kubernetes-deployment.yaml 
+3. minikube service boot-app-service --url 
+
+As soon as services are ready you can check click on urls
+and browse for services 
+
+Enjoy :)  
