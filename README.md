@@ -31,6 +31,11 @@ which should return you message : 'Hello from cloud config'
 3. Run mvn dockerfile:build
 4. Run mvn dockerfile:push 
 
+<img src="https://github.com/rashjz/eureka-actuator-sc/blob/master/bin/Screenshot3.png?raw=true" width="60%">
+
+As i am using github CI/CD github workflow will automatically track master 
+branch changes and deploy new images to https://hub.docker.com/repositories 
+
 #### To run kubernetes deployment locally
 Make sure you have setup kubectl, minikube, docker, virtual Box 
 on your machine after setting up environment : 
