@@ -1,7 +1,6 @@
-FROM openjdk:8-jre
+FROM openjdk:8-jdk-alpine
 MAINTAINER Rashad Javadov <rashadjavad@gmail.com>
 
-ENTRYPOINT ["/usr/bin/java", "-jar", "/usr/share/myservice/myservice.jar"]
-
-ARG JAR_FILE
-ADD target/${JAR_FILE} /usr/share/myservice/myservice.jar
+VOLUME /tmp
+COPY target/*-SNAPSHOT.jar app.jar
+ENTRYPOINT ["java","-jar","/app.jar"]
