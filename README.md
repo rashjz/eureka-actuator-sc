@@ -1,7 +1,7 @@
 ### Eureka Actuator Spring Cloud Example 
 
 #### Deployment flow 
-<img src="https://github.com/rashjz/eureka-actuator-sc/blob/master/bin/Screenshot4.png?raw=true" width="70%">
+<img src="https://github.com/rashjz/eureka-actuator-sc/blob/master/bin/Screenshot4.png?raw=true" width="60%">
 
 Actuator endpoint : http://localhost:9001/actuator/health  
   
