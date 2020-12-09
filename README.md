@@ -1,5 +1,8 @@
 ### Eureka Actuator Spring Cloud Example 
 
+#### Deployment flow 
+<img src="https://github.com/rashjz/eureka-actuator-sc/blob/master/bin/Screenshot4.png?raw=true">
+
 Actuator endpoint : http://localhost:9001/actuator/health  
   
 curl GET http://localhost:9000/service-instances/a-bootiful-client
